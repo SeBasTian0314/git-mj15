@@ -1,0 +1,14 @@
+#Archivos(que se ignoran)
+*.txt
+*.swp
+*.temp
+*.tem
+*.dll
+
+
+#Carpetas
+docs/
+temp/
+tmp/
+node_modules/
+logs/

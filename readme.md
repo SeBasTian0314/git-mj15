@@ -1,6 +1,6 @@
 # git desarrollo colaborativo
 
-Esto es una guia creada para facilitar el entendimiento y la implementacion de la herramienta conocida como GIT, desarrollada por linus  torvasl  y cuya  finalidad es el control de las versiones de los diferentes proyectos que realicemos.Aunque tambien podemos utilizar el parametro **--sistem
+Esto es una guia creada para facilitar el entendimiento y la implementacion de la herramienta conocida como GIT, desarrollada por linus  torvasl  y cuya  finalidad es el control de las versiones de los diferentes proyectos que realicemos.Aunque tambien podemos utilizar el parametro **--sistem**.
 
 ## Configuracion Inicial 
 
