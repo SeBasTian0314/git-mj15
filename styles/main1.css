@@ -88,10 +88,23 @@ nav, a{
   margin: 1rem auto ;
 }
 .colabs :is(
+  caption,
   th, 
   td
   ){
 padding: .5rem 1rem ;
+}
+.colabs caption{
+  border-radius: .5rem .5rem 0 0;
+}
+.colabs,
+.colabs:is(
+tr, 
+caption,
+td
+){
+  color:#eee;
+  background-color:#4488 ;
 }
 
 
