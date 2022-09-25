@@ -86,12 +86,21 @@ nav, a{
 /*Tabla de colaboradores*/
 .colabs{
   margin: 1rem auto ;
+border-collapse: collapse ;
 }
 .colabs :is(
+  caption,
   th, 
   td
   ){
 padding: .5rem 1rem ;
+border: .2re solid #c36 ;
+}
+.colabs caption{
+  border-bottom: none;
+  border-radius: .25rem .25rem 0 0 ;
+  color: #eee;
+  background-color: #c36 ;
 }
 
 
