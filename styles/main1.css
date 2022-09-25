@@ -67,9 +67,17 @@ nav a{
     background-color: #eee;
    }
 /*Cabecera*/
-
+#header{
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  min-height: min(100vh, 640px);
+  color:#eee ;
+  background-color: linear-gradient (#666, #333) ;
+  font-size: min (calc(2vw + .8rem),3rem);
+}
 /* Contenido*/
-
+ 
 /* Pie de Pagina*/
 
 /* Medium Devices -- Tablets*/
