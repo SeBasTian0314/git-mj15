@@ -75,24 +75,41 @@ nav, a{
    }
 /*Cabecera*/
 
+/*tabla de contenido*/
+
 /* Contenido*/
 
 /* Pie de Pagina*/
 
+/*Mapa de contacto*/
+
+/*Tabla de colaboradores*/
+.colabs{
+  margin: 1rem auto ;
+}
+.colabs :is(
+  th, 
+  td
+  ){
+padding: .5rem 1rem ;
+}
+
+
+/* Redes Sociales*/
+
+
 /* Medium Devices -- Tablets*/
-@media screen and (min-width: 768px){
+
+@media screen and (min-width: 768px) {
 nav .btn{
-      display: none;
-    }
+      display: none;}
 .menu{
       position: static;
       display: flex;
       background-image: none;
-      width: auto;
-    }
+      width: auto;}
 .menu a{
-      padding: .5rem ;
-    }
+      padding: .5rem ;}
   }
 
   /* ExtraLarge Devices -- HD Desktop*/
